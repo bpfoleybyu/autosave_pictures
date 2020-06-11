@@ -3,7 +3,7 @@
 block_cipher = None
 
 
-a = Analysis(['auto_save_images.py'],
+a = Analysis(['auto_save_images.pyw'],
              pathex=['C:\\Users\\bpfol\\Desktop\\Code'],
              binaries=[],
              datas=[],
@@ -30,4 +30,4 @@ exe = EXE(pyz,
           upx=True,
           upx_exclude=[],
           runtime_tmpdir=None,
-          console=True )
+          console=False )
